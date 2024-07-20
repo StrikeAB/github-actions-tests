@@ -11,5 +11,7 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Running a script
-        run: echo "Howdy"
+        run: |
+          echo "Howdy"
+          echo "This is a first workflow"
         
